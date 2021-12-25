@@ -10,15 +10,39 @@ h4 {
     text-align: center;
 }
 
-.topnav {
+/*.topnav {*/
+/*    text-align: center;*/
+/*    overflow: hidden;*/
+/*    align-self: center;*/
+/*    alignment: center;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    child-align: middle;*/
+/*    horiz-align: center;*/
+/*}*/
+
+.navbar {
+    background: #aeddfc;
+    list-style-type: none;
     text-align: center;
+    z-index: 5;
+}
+.nav-link,
+.navbar-brand {
+    color: black;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
     overflow: hidden;
-    align-self: center;
-    alignment: center;
-    justify-content: center;
-    align-items: center;
-    child-align: middle;
-    horiz-align: center;
+    white-space: nowrap;
+}
+.nav-link:hover {
+    color: white;
+    background-color: #78C5F9;
+}
+.navbar-collapse {
+    justify-content: flex-end;
 }
 
 p {
@@ -29,11 +53,26 @@ p {
     margin-right: auto;
 }
 
+p.aboutmep {
+    text-align: center;
+    width: 700px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 form {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
     alignment: left;
+}
+
+.center {
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    align-self: center;
 }
 
 .topnav {
