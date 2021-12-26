@@ -15,8 +15,9 @@ window.onscroll = function() {sticky_nav()};
 
 // function that makes navigation sticky
 function sticky_nav() {
-    var navbar_list = document.getElementsByClassName("navbar-expand-md");
-    var navbar = navbar_list[0]; // gets the navigation bar
+    console.log("Sticky Nav");
+    var navbar = document.getElementById("navbar");
+    // var navbar = navbar_list[0]; // gets the navigation bar
     if (window.pageYOffset >= navbar_sticky_Y) {
         navbar.classList.add("sticky");
     } else {
@@ -28,8 +29,4 @@ function sticky_nav() {
 function home() {
     document.body.scrollTop = 0; // for Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
-function submit() {
-    console.log("We are trying to submit now.");
 }

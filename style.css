@@ -10,6 +10,13 @@ h4 {
     text-align: center;
 }
 
+.center {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 .navbar {
     list-style-type: none;
     text-align: center;
@@ -64,34 +71,34 @@ form {
     align-self: center;
 }
 
-.home {
-    background-color: #ff6161;
-}
+/*.home {*/
+/*    background-color: #ff6161;*/
+/*}*/
 
-.aboutme {
-    background-color: #ffb061;
-}
+/*.aboutme {*/
+/*    background-color: #ffb061;*/
+/*}*/
 
-.randomthoughts {
-    background-color: #faf441;
-}
+/*.randomthoughts {*/
+/*    background-color: #faf441;*/
+/*}*/
 
-.favoriteworksothers {
-    background-color: #b9fc79;
-}
+/*.favoriteworksothers {*/
+/*    background-color: #b9fc79;*/
+/*}*/
 
-.favoriteworksmyown {
-    background-color: #a0ecfa;
-}
+/*.favoriteworksmyown {*/
+/*    background-color: #a0ecfa;*/
+/*}*/
 
-.contact {
-    background-color: #bea0fa;
-}
+/*.contact {*/
+/*    background-color: #bea0fa;*/
+/*}*/
 
 .item-textbox {
     width: 300px;
 }
 
 button {
-
+    border-color: black;
 }
