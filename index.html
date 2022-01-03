@@ -10,46 +10,56 @@
 
 <body>
 
-<header class="page-header header">
-<!--    make this full page-->
-    <div class="home" style="background-color: #ff6161">
-        <br>
-        <h1>Mandy Chang</h1>
-        <h4>Hmong-American Dreamer, Student of the World, and Coder</h4>
-        <br>
+<header class="page-header header container-fluid">
+    <div class="container h-100 vertical-center">
+        <div class="row">
+            <div class="col-5 px-2">
+                <h1 class="text-left py-2">Mandy Chang</h1>
+                <h4 class="text-left pt-1 pb-3">Hmong-American Dreamer, Student of the World, and Coder</h4>
+                <ul class="text-left" style="list-style-type: none;">
+                    <li>
+                        <a href="index.html" onclick="home()">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="randomthoughts.html">Random Thoughts</a>
+                    </li>
+                    <li>
+                        <a href="favoriteworksothers.html">Favorite Works of Others</a>
+                    </li>
+                    <li>
+                        <a href="favoriteworksmyown.html">Favorite Works of My Own</a>
+                    </li>
+                    <li>
+                        <a href="contactme.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col pr-2">
+                <p>
+                    this is supposed to be a really long paragraph this is supposed to be a
+                    really long paragraph this is supposed to be a really long paragraph
+                    this is supposed to be a really long paragraph this is supposed to be
+                    a really long paragraph this is supposed to be a really long paragraph
+                    this is supposed to be a really long paragraph this is supposed to be a
+                    really long paragraph this is supposed to be a really long paragraph
+                    this is supposed to be a really long paragraph this is supposed to be
+                    a really long paragraph this is supposed to be a really long paragraph
+                    this is supposed to be a really long paragraph this is supposed to be a
+                    really long paragraph this is supposed to be a really long paragraph this
+                    is supposed to be a really long paragraph
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="text-center" style="width: 100%">This website was created by Mandy Chang.</p>
+            </div>
+        </div>
     </div>
 </header>
-
-<nav class="navbar navbar-expand-md" id="navbar">
-<!--    put this at the top-->
-    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="main-navigation">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" id="home" href="index.html" onclick="home()">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="aboutme" href="aboutme.html">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="randomthoughts" href="randomthoughts.html">Random Thoughts</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="favoriteworksothers" href="favoriteworksothers.html">Favorite Works of Others</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="favoriteworksmyown" href="favoriteworksmyown.html">Favorite Works of My Own</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="contact" href="contactme.html">Contact Me</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<p class="text-center" style="width: 100%">This website was created by Mandy Chang.</p>
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
