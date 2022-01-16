@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     text-align: center;
 }
 
@@ -8,12 +8,16 @@ h2 {
 
 h4 {
     text-align: center;
-}
+} */
 
 .header {
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.viewport-height {
+    height: 100vh;
 }
 
 .center {
@@ -28,7 +32,6 @@ h4 {
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
 
 .navbar {

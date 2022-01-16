@@ -26,7 +26,7 @@ function sticky_nav() {
 }
 
 // define a function for when they click on each button in the navigation
-function home() {
-    document.body.scrollTop = 0; // for Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+// function home() {
+//     document.body.scrollTop = 0; // for Safari
+//     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+// }
