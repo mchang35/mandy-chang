@@ -88,29 +88,21 @@ form {
     align-self: center;
 }
 
-/*.home {*/
-/*    background-color: #ff6161;*/
-/*}*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    row-gap: 20px;
+}
 
-/*.aboutme {*/
-/*    background-color: #ffb061;*/
-/*}*/
-
-/*.randomthoughts {*/
-/*    background-color: #faf441;*/
-/*}*/
-
-/*.favoriteworksothers {*/
-/*    background-color: #b9fc79;*/
-/*}*/
-
-/*.favoriteworksmyown {*/
-/*    background-color: #a0ecfa;*/
-/*}*/
-
-/*.contact {*/
-/*    background-color: #bea0fa;*/
-/*}*/
+.grid-element {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    border: 5px solid rgba(255, 255, 255, 0.192);
+    border-radius: 25px;
+}
 
 .item-textbox {
     width: 300px;
